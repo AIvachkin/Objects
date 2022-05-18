@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
         Author author = new Author("Лев", "Толстой") ;
 //        Author author1 = new Author("Лев", "Толстой") ;
-        Author author1 = new Author("Федор", "Достоевский") ;
 
+        Author author1 = new Author("Федор", "Достоевский") ;
         Book book = new Book ("Война и Мир" , author , 2001) ;
         Book book1 = new Book("Преступление и наказание", author1, 1999) ;
 //        Book book1 = new Book("Война и Мир", author1, 1999) ;
